@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+/* body */
+
+body {
+    font-family: "roberto", sans-serif;
+}
+/* Navbar Styling */
+
+.navbar-style {
+    background:rgba(25, 25, 25, .5);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+/* Hero Image Styling */
+
+.hero-image {
+    background:url(../images/hero-image.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 93vh;
+    position: relative;
+}
+
+.hero-text {
+    /* width: 60vw;
+    height: 20vh; */
+    position: absolute;
+    top: 200px;
+    
+    
+
+}
+
+.hero-text p {
+    text-align: center;
+    padding-top:50px ;
+    font-size: 200%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.hero-btn {
+    text-align: center;
+    margin-top: 45px;
+
+}
+
+.hero-logo {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 20%;
+
+    z-index: 2;
+    position: absolute;
+}
+
+/* Break */
+
+.about-break {
+    width: 100px;
+    background-color: black;
+    margin: 0 auto;
+    height:4px;
+}
+
+
+
+
+/* New Section */
+
+.about-container {
+    background: url(../images/2021-qashqai/2021-rear.jpg) no-repeat;
+    background-position-x: center;
+    background-color: #fff;
+    width: 100vw;
+    height: vh;
+    position: relative;
+}
+
+.about-overlay {
+    top:0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.about-heading{
+    color: #fff;
+    text-align: center;
+    margin-top:175px;
+    font-size: 300%;
+    font-weight: 900;
+}
+
+.about-heading--info {
+    margin-top: 10%;
+}
+
+.about-container{
+    position: relative;
+    background: url(../images/2021-qashqai/2021-rear.jpg) center no-repeat;
+    background-color: #fff;
+    width: 100vw;
+    height: 93vh;
+}
+
+
+/* About Design */
+
+.about-container-1{
+    position: relative;
+    background-color: #fff;
+    width: 100vw;
+    height: 80vh;
+}
+
+.about-container-1 h1{
+    color: black;
+    }
+
+
+.about-container-1-text {
+    margin-top: 50px;
+}
+
+.about-container-1-text h2 {
+    text-align: left;
+    font-family: "Roberto", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 250%;
+    padding: 20px 0;
+}
+
+.about-container-1-text p {
+    text-align: left;
+    font-family: "Roberto", sans-serif;
+    color:black;
+    font-weight: 300;
+    font-size: 150%;
+    letter-spacing: 1px;
+}
+
+.design-images {
+    background-color: rgba(100, 200, 100, .95);
+    height:200px;
+    margin-top: 50px;
+    background:url(../images/2021-qashqai/2021-rear-2.jpg) center no-repeat;
+    background-size: cover;
+    
+}
+
+/* About Technology */
+
+
+.about-container-2 {
+    position: relative;
+    background: url(../images/2021-qashqai/2021-front-2.jpg) center no-repeat;
+    background-color: #fff;
+    width: 100vw;
+    height: 98vh;
+}
+
+
+
+
+
+.test {
+    max-width:400px;
+    max-height: 400px;
+    font-weight: bold;
+}
+
+.test--red{
+    background-color: red;
+}
+.test--green{
+    background-color: green;
+}
+.test--blue{
+    background-color: blue;
+}
