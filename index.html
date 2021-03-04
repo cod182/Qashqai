@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nissan Qashqai</title>
     <link rel="icon" href="assets/images/nissan-logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5351067769.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
@@ -14,7 +15,7 @@
         <div class="row">
             <div class="col-12 p-0">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-style">
-                    <a class="navbar-brand" href="#">Nissan Qashqai</a>
+                    <a class="navbar-brand" href="#"><span><img class="navbar-logo" src="/assets/images/nissan-logo-small.png" alt="Nissan Logo"></span> Nissan Qashqai</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -56,22 +57,23 @@
     <section class="container-fluid">
         <div class="row">
             <div class="col-12 p-0">
-                
                 <div class="hero-image">
-                    <div class=""></div>
-                        <img class="hero-logo" src="/assets/images/nissan-logo.png" alt="Nissan Logo">
-                    </div>
-                    <div class="hero-text col-sm-12 col-lg-6">
-                        <p>The all new Nissan Qashqai</p>
-                    
-                        <div class="hero-btn container-fluid">
-                            <div class="row">
-                                <div class="col-12">
-                                    <button class="btn btn-danger">Discover it now</button>
+                    <div class="row row--100">
+                        <div class="col-sm-3 col-md-3 ml-md-2 col-lg-5 ml-lg-3 hero-nis order-2">
+
+                        </div>
+                        <div class="hero-text col-12 col-md-8 col-lg-6 order-1">
+                            <p>The all new Nissan Qashqai</p>
+                            <div class="hero-btn container-fluid">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button class="btn btn-danger">Discover it now</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div> 
+                        </div> 
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,7 +84,7 @@
     <section class="container-fluid about-container">
         <div class="about-overlay">&nbsp;</div>
             <div class="row">
-                <div class="col-12 m-0 p-0">
+                <div class="col-12 p-0">
                     <h1 class="about-heading">
                         2021 Qashqai Specification
                     </h1>
@@ -96,11 +98,12 @@
                     <h1 class="about-heading about-heading--info">
                         Design
                     </h1>
-                    <hr class="about-break">
+                    <hr class="about-break about-break--black">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-lg-6 about-container-1-text">
+                <div class="col-lg-1"></div>
+                <div class="col-sm-12 col-lg-5 about-container-1-text">
                     <h2>Once again, it looks like nothing else</h2>
                     <p>Qashqai brings a new vision with muscular proportions, brilliant LED lighting and massive 20-inch alloy wheels¹. And with more colours than ever before, you’ll be sure to stand out from the crowd.</p>
                 </div>
@@ -112,9 +115,6 @@
 
                 <div class="d-sm-none d-lg-inline col-lg-6 mr-5">
                 </div>
-
-                <div class="col-sm-12 col-lg-5 design-images design-images--right d-sm-none d-lg-inline">
-                </div>
             </div>
     </section>
 
@@ -125,12 +125,54 @@
                     <h1 class="about-heading about-heading--info">
                         Technology
                     </h1>
+                    <hr class="about-break about-break--white">
                 </div>
             </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1"></div>                
+                <div class="col-sm-12 col-lg-6 about-container-1-text">
+                    <h2>SMART POWER FOR AN ELECTRIFYING DRIVE</h2>
+                    <p>Experience driving thrills like never before with two new powertrains. Qashqai’s mild hybrid enhances efficiency, whilst the future e-POWER² combines electric vehicle technology with the convenience and familiarity of a petrol engine, bringing the instant acceleration, unmatched smoothness and the quiet ride of an electric vehicle.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dm" data-toggle="modal" data-target="#disc-more">
+                    <i class="fas fa-plus-circle"></i> Discover More
+                    </button>
+
+                </div>
     </section>
 
 
 
+            <!-- Modal -->
+            <div class="modal fade" id="disc-more" tabindex="-1" role="dialog" aria-labelledby="Discover More about the Technology Modal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-disc">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="Discover More about the Technology Modal">Smart power for a changing world</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>MILD HYBRID</h5>
+                    <h2>The drive for efficiency has never been more thrilling</h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Efficiency with enthusiasm</h4>
+                            <p>Qashqai’s new 1.3L petrol mild-hybrid powertrain features a lithium-ion battery which stores energy recovered during braking to reduce emissions and ensure smoother stop start functionality. It is available with both 6-speed manual and automatic transmissions.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Efficiency with enthusiasm</h4>
+                            <p>Qashqai’s new 1.3L petrol mild-hybrid powertrain features a lithium-ion battery which stores energy recovered during braking to reduce emissions and ensure smoother stop start functionality. It is available with both 6-speed manual and automatic transmissions.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
 
 
 
@@ -138,8 +180,32 @@
 
 
 
+  
 
-    <div class="container-fluid">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+    <footer class='container-fluid'>
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="footer-bar">
+                    
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+      <div class="container">
         <div class="row">
             <div class="col-4 test test--red">
                 <p>4 Columns</p>
@@ -157,10 +223,6 @@
         </div>
     </div>
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
