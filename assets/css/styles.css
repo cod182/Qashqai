@@ -34,7 +34,7 @@
 
 body {
     font-family: "nissanoptiregular","Roboto", sans-serif;
-    background: black;
+    background: snow;
 }
 /* Navbar Styling */
 
@@ -48,7 +48,7 @@ body {
 .navbar {
     font-family: "Roboto", sans-serif;
     /* background-color: rgb(104, 104, 107); */
-    background: transparent;
+    background: black;
     position: relative;
 
 }
@@ -189,7 +189,9 @@ body {
     position: relative;
     background-color: #fff;
     width: 100vw;
-    height: 80vh;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .about-container-1 h1{
@@ -361,6 +363,9 @@ body {
     text-decoration: none;
 }
 
+.social-col li {
+    margin-top:4px ;
+}
 .foot-cols {
     font-family: "roboto", sans-serif;
     font-size: 70%;
