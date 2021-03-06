@@ -137,7 +137,9 @@ body {
     background-color: white;
 }
 
-
+.about-break--margin {
+    margin-bottom: 10px;
+}
 
 
 /* New Section */
