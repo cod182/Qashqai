@@ -303,17 +303,17 @@ body {
         display: none;
     }
 
-    .foot-sec1 h6, p {
+    .foot-sec1 h6, .foot-sec1 p {
         text-align: left;
     }
 
-    .foot-sec3 h6, li {
+    .foot-sec3 h6, .foot-sec3 li {
         text-align: right;
     }
 }
 
 @media only screen and (max-width:575px) {
-    .foot-cols h6, li, p{
+    .foot-cols h6, .foot-cols li, .foot-cols p{
         text-align: center;
     }
 }
@@ -418,4 +418,38 @@ body {
     margin-bottom: 20px;
 }
 
-.btn--
+
+
+
+/* 404 Page */
+
+.error-image {
+    font-size: 2000%;
+    color: rgb(255, 145, 0);
+    text-align: center;
+}
+
+.error-center {
+    margin:auto;
+}
+
+.error-text--heading {
+    font-size: 200%;
+}
+
+.error-text {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn--404 {
+    background-color: red;
+}
+.btn--404:focus,
+.btn--404:active,
+.btn--404:focus:active,
+.btn--404:hover {
+    background-color: darkred;
+    border:1px solid darkred;
+}
