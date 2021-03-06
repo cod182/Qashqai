@@ -296,6 +296,24 @@ body {
     .about-heading {
         margin-top:100px;
     }
+
+    .foot-sec2 {
+        display: none;
+    }
+
+    .foot-sec1 h6, p {
+        text-align: left;
+    }
+
+    .foot-sec3 h6, li {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .foot-cols h6, li, p{
+        text-align: center;
+    }
 }
 
 
@@ -376,3 +394,26 @@ body {
     margin-top: 20px;
     color: white;
 }
+
+
+/* Other Sections */
+
+.other-heading h3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.break-margin {
+    margin-bottom: 30px;
+}
+.othermodels {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.otherpics {
+    max-width: 33%;
+    margin-bottom: 20px;
+}
+
+.btn--
